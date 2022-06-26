@@ -1,0 +1,15 @@
+{
+    
+    "manifest_version": 3,
+    "name": "Leads Tracker",
+    "version": "1.0",
+  
+    "action": {
+        "default_popup": "index.html",
+        "default_icon":"icon.png"
+    },
+    "description": "A simple list for adding my courses",
+    "permissions": [
+        "tabs"
+    ]
+}

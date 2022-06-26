@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "RotaMed";
+    src: url(Rota-Medium.otf);
+    font-stretch: ultra-condensed;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: RotaMed;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+input {
+    font-family: RotaMed;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+button {
+    font-family: RotaMed;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 5px 10px;
+    max-width: 150px;
+    margin-right: 5px;
+    
+    
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+li {
+    margin-top: 5px;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+li a {
+    color: cadetblue;
+}
+
+
+.List {
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: black;
+    width: 400px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+#inside-head {
+    text-align: center;
+}
